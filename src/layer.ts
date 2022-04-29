@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as MapboxGL from 'mapbox-gl';
-const isEqual = require('deep-equal'); //tslint:disable-line
+import isEqual from 'deep-equal';
 import diff from './util/diff';
 import { Props as FeatureProps } from './feature';
 
